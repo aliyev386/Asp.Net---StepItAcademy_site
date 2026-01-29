@@ -1,0 +1,29 @@
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\bin\Debug\net8.0\appsettings.json
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\bin\Debug\net8.0\Asp.net - StepItAcademy.staticwebassets.runtime.json
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\bin\Debug\net8.0\Asp.net - StepItAcademy.staticwebassets.endpoints.json
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\bin\Debug\net8.0\Asp.net - StepItAcademy.exe
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\bin\Debug\net8.0\Asp.net - StepItAcademy.deps.json
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\bin\Debug\net8.0\Asp.net - StepItAcademy.runtimeconfig.json
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\bin\Debug\net8.0\Asp.net - StepItAcademy.dll
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\bin\Debug\net8.0\Asp.net - StepItAcademy.pdb
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\Asp.net - StepItAcademy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\Asp.net - StepItAcademy.AssemblyInfoInputs.cache
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\Asp.net - StepItAcademy.AssemblyInfo.cs
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\Asp.net - StepItAcademy.csproj.CoreCompileInputs.cache
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\Asp.net - StepItAcademy.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\Asp.net - StepItAcademy.RazorAssemblyInfo.cache
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\Asp.net - StepItAcademy.RazorAssemblyInfo.cs
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\scopedcss\bundle\Asp.net - StepItAcademy.styles.css
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\scopedcss\projectbundle\Asp.net - StepItAcademy.bundle.scp.css
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\Asp.net - StepItAcademy.dll
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\refint\Asp.net - StepItAcademy.dll
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\Asp.net - StepItAcademy.pdb
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\Asp.net - StepItAcademy.genruntimeconfig.cache
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\ref\Asp.net - StepItAcademy.dll

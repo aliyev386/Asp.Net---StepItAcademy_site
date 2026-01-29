@@ -1,0 +1,119 @@
+﻿<header class="main-header">
+    <div class="header-logo">
+        <img src="https://fsx1.itstep.org/api/v1/files/9ajremzsF8fIVpTIKzCK7L-hMWPbHT2X" alt="Step IT Academy">
+    </div>
+
+    <nav class="header-nav">
+        <ul class="nav-list">
+            <li class="nav-item">Təhsil <img src="https://robynallegraparton.com/wp-content/uploads/2017/10/down-arrow-1.png" alt="Alternate Text" /><i class="fas fa-chevron-down icon-small"></i></li>
+            <li class="nav-item">Akademiya haqqında <img src="https://robynallegraparton.com/wp-content/uploads/2017/10/down-arrow-1.png" alt="Alternate Text" /><i class="fas fa-chevron-down icon-small"></i></li>
+            <li class="nav-item">Bloq</li>
+            <li class="nav-item">Əlaqə</li>
+        </ul>
+    </nav>
+
+    <div class="header-right">
+        <div class="dropdown-link">Bakı <img src="https://robynallegraparton.com/wp-content/uploads/2017/10/down-arrow-1.png" alt="Alternate Text" /><i class="fas fa-chevron-down icon-small"></i></div>
+        <div class="dropdown-link">AZ <img src="https://robynallegraparton.com/wp-content/uploads/2017/10/down-arrow-1.png" alt="Alternate Text" /><i class="fas fa-chevron-down icon-small"></i></div>
+        <div class="phone-badge">
+            012 599 11 59 <img src="https://robynallegraparton.com/wp-content/uploads/2017/10/down-arrow-1.png" alt="Alternate Text" /><i class="fas fa-chevron-down icon-small"></i>
+        </div>
+    </div>
+</header>
+
+<style>
+    .main-header {
+        background-color: #1a1a1a;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 0 60px;
+        height: 60px; 
+        position: relative;
+        z-index: 100;
+        font-family: sans-serif;
+    }
+
+    .header-logo {
+        position: relative;
+        align-self: flex-start;
+        margin-left: 300px;
+    }
+
+    .header-nav {
+        margin-left: 40px;
+        flex-grow: 1;
+    }
+
+    .nav-list {
+        display: flex;
+        list-style: none;
+        gap: 25px;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-list img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .header-right img{
+        width: 25px;
+        height: 25px;
+    }
+    .nav-item {
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: color 0.3s ease;
+    }
+
+    .nav-item:hover {
+        color: #2b59ff;
+    }
+
+    .header-right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 14px;
+        margin-right: 300px;
+    }
+
+    .dropdown-link {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        transition: opacity 0.3s;
+        
+    }
+
+        .dropdown-link:hover {
+            opacity: 0.8;
+        }
+
+    .phone-badge {
+        background-color: #2b59ff;
+        color: white;
+        padding: 2px 4px;
+        border-radius: 6px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .phone-badge:hover {
+            background-color: #1e44cc;
+        }
+
+    .icon-small {
+        font-size: 10px;
+        opacity: 0.7;
+    }
+</style>
