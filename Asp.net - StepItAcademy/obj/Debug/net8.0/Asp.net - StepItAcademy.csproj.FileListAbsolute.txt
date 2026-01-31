@@ -27,3 +27,4 @@ C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\
 C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\Asp.net - StepItAcademy.pdb
 C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\Asp.net - StepItAcademy.genruntimeconfig.cache
 C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\ref\Asp.net - StepItAcademy.dll
+C:\Users\Omer\Desktop\Asp.net - StepItAcademy\Asp.net - StepItAcademy\obj\Debug\net8.0\Asp.net - StepItAcademy.sourcelink.json

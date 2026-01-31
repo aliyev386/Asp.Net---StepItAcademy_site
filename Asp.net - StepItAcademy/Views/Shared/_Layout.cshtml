@@ -10,14 +10,14 @@
 </head>
 <body>
 
-    @Html.Partial("_HeaderPartialView")
-
+    
+    <partial name="_HeaderPartialView.cshtml"></partial>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-    @Html.Partial("_FooterPartialView")
+    <partial name="_FooterPartialView.cshtml"></partial>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

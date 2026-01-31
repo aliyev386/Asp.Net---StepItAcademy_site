@@ -4,13 +4,856 @@
 
 <div class="text-center">
     <img src="https://itstep.az/dist/images/home/redesign/banner-l.png" alt="" />
+    <div class="re-home-banner__content ">
+        <h1 class="re-home-banner__title ">STEP IT Academy</h1>
+        <h2 class="re-home-banner__subtitle ">Missiyamız: tələbələrimizin gələcək uğurlarının əsasını qoymaq üçün keyfiyyətli və bazarda tələb olunan təhsil</h2>
+    </div>
+
 </div>
 <style>
-    .text-center img{
+    .re-home-banner__content {
+        width: 1255px;
+        margin: 0 auto;
+        padding-bottom: 136px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 40%;
+        transform: translate(-50%);
+        height: 565px;
+        width: 800px;
+    }
+
+    .re-home-banner__title {
+        font-family: Inter, sans-serif;
+        color: #1d1d1f;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 77px;
+        margin-bottom: 25px;
+        max-width: 570px;
+        margin-top: 200px;
+    }
+
+    .re-home-banner__subtitle {
+        font-family: Inter, sans-serif;
+        color: #1d1d1f;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        max-width: 551px;
+    }
+
+    .text-center img {
         width: 100%;
         height: auto;
-        margin-left: 304px;
+        margin-left: 367px;
     }
-    .text-center{
+
+    .text-center {
     }
+</style>
+<div class="marquee-full-width">
+    <div class="marquee-track">
+        <div class="marquee-item">
+            <a href="/programlasdirma">Proqramlaşdırma</a> <span class="dot"></span>
+            <a href="/dizayn">Dizayn</a> <span class="dot"></span>
+            <a href="/kiber-tehlukesizlik">Kiber təhlükəsizlik</a> <span class="dot"></span>
+            <a href="/marketing">Marketing</a> <span class="dot"></span>
+            <a href="/programlasdirma">Proqramlaşdırma</a> <span class="dot"></span>
+            <a href="/dizayn">Dizayn</a> <span class="dot"></span>
+            <a href="/kiber-tehlukesizlik">Kiber təhlükəsizlik</a> <span class="dot"></span>
+            <a href="/marketing">Marketing</a> <span class="dot"></span>
+        </div>
+        <div class="marquee-item" aria-hidden="true">
+            <a href="/programlasdirma">Proqramlaşdırma</a> <span class="dot"></span>
+            <a href="/dizayn">Dizayn</a> <span class="dot"></span>
+            <a href="/kiber-tehlukesizlik">Kiber təhlükəsizlik</a> <span class="dot"></span>
+            <a href="/marketing">Marketing</a> <span class="dot"></span>
+            <a href="/programlasdirma">Proqramlaşdırma</a> <span class="dot"></span>
+            <a href="/dizayn">Dizayn</a> <span class="dot"></span>
+            <a href="/kiber-tehlukesizlik">Kiber təhlükəsizlik</a> <span class="dot"></span>
+            <a href="/marketing">Marketing</a> <span class="dot"></span>
+        </div>
+    </div>
+</div>
+
+<style>
+    .marquee-full-width {
+        width: 1912px;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        overflow: hidden;
+        background: black;
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        border-top: 2px solid #333;
+        border-bottom: 2px solid #333;
+    }
+
+        .marquee-full-width:hover .marquee-track {
+            animation-play-state: paused;
+        }
+
+    .marquee-track {
+        display: flex;
+        width: max-content;
+        animation: scroll-left 30s linear infinite;
+    }
+
+    .marquee-item {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+        .marquee-item a {
+            font-family: 'Inter', sans-serif;
+            font-size: 24px;
+            font-weight: 800;
+            color: #817e7e;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+            .marquee-item a:hover {
+                color: #ffffff;
+            }
+
+    .dot {
+        color: #817e7e;
+        margin: 0 15px;
+        font-size: 24px;
+    }
+
+    @@keyframes scroll-left {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+</style>
+<section class="edu-section">
+    <div class="container">
+        <h2 class="section-title">Böyüklər üçün təhsil</h2>
+
+        <div class="card-grid">
+            <div class="edu-card">
+                <div class="card-text">
+                    <h3>Dizayn</h3>
+                    <p>5 kursların</p>
+                </div>
+                <img src="https://fsx3.itstep.org/api/v1/files/dxroz0QV1nGijRi3LtIew_H4x4vd80En?inline=true&f=webp&h=515" alt="Dizayn">
+            </div>
+
+            <div class="edu-card">
+                <div class="card-text">
+                    <h3>Proqramlaşdırma</h3>
+                    <p>1 kurs</p>
+                </div>
+                <img src="https://fsx3.itstep.org/api/v1/files/OXbyEb86yOm_7xv-4Z4_3XEAVQspxXVz?inline=true&f=webp&h=515" alt="Proqramlaşdırma">
+            </div>
+
+            <div class="edu-card">
+                <div class="card-text">
+                    <h3>Şəbəkə texnologiyaları və kibertəhlükəsizlik</h3>
+                    <p>1 kurs</p>
+                </div>
+                <img src="https://fsx3.itstep.org/api/v1/files/bJ5N4D676_yqrft9QSKGPVdqgHreRmla?inline=true&f=webp&h=515" alt="Kibertəhlükəsizlik">
+            </div>
+
+            <div class="edu-card">
+                <div class="card-text">
+                    <h3>Biznes</h3>
+                    <p>1 kurs</p>
+                </div>
+                <img src="https://fsx3.itstep.org/api/v1/files/8rG0E8CdXtwMVffmsrKupM9nytxJL-wu?inline=true&f=webp&h=515" alt="Biznes">
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .edu-section {
+        background-color: #000;
+        padding: 60px 0;
+        font-family: 'Inter', sans-serif;
+        color: white;
+        width: 1907px;
+        margin-left: -370px;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .section-title {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
+
+    .edu-card {
+        background: #111;
+        border-radius: 15px;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+        padding: 25px;
+        transition: transform 0.3s ease, background 0.3s ease;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+        .edu-card:hover {
+            transform: translateY(-5px);
+            background: #1a1a1a;
+        }
+
+    .card-text h3 {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0 0 10px 0;
+        line-height: 1.2;
+        max-width: 80%;
+    }
+
+    .card-text p {
+        font-size: 14px;
+        color: #888;
+        margin: 0;
+    }
+
+    .edu-card img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 180px;
+        height: auto;
+        object-fit: contain;
+    }
+
+
+    .edu-card {
+        height: 200px;
+    }
+
+</style>
+<section class="kids-edu">
+    <div class="custom-container">
+        <h2 class="main-title">Uşaqlar üçün təhsil</h2>
+
+        <div class="edu-grid">
+            <a href="#" class="mini-card">
+                <div class="mini-card-info">
+                    <h3>IT-proqramlar</h3>
+                    <span>3 proqram</span>
+                </div>
+                <img src="https://itstep.az/dist/images/education-children-new/it_for_children_m.webp" alt="">
+            </a>
+
+            <a href="#" class="mini-card">
+                <div class="mini-card-info">
+                    <h3>Intensiv kurslar</h3>
+                    <span>2 proqram</span>
+                </div>
+                <img src="https://itstep.az/dist/images/education-children-new/soft_skills_m.webp" alt="">
+            </a>
+
+            <a href="#" class="mini-card">
+                <div class="mini-card-info">
+                    <h3>Tətillər</h3>
+                    <span>2 proqram</span>
+                </div>
+                <img src="https://itstep.az/dist/images/education-children-new/holiday_m.webp" alt="">
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="consult-section">
+    <div class="custom-container">
+        <div class="consult-banner">
+            <div class="consult-text">
+                <h2>Seçim etməyə kömək edirik!</h2>
+                <p>Kurslarla bağlı suallarınız varsa, və ya nə seçəcəyinizdə əmin deyilsinizsə bizə nömrənizi saxlayın: özümüz zəng vurub bütün suallarınızı cavablandıracağıq.</p>
+                <button class="consult-btn">Məsləhət almaq</button>
+            </div>
+            <div class="consult-img">
+                <img src="https://itstep.az/dist/images/home/redesign/popup.webp" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    .kids-edu {
+        background-color: #ffffff;
+        padding: 40px 0;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .custom-container {
+        width: 100%;
+        max-width: 1250px;
+    }
+
+    .main-title {
+        font-size: 28px;
+        font-weight: 700;
+        color: #1d1d1f;
+        margin-bottom: 30px;
+    }
+
+    .edu-grid {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .mini-card {
+        background: #F5F5F7;
+        border-radius: 16px;
+        width: 380px;
+        height: 180px;
+        display: flex;
+        padding: 24px;
+        position: relative;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.3s ease;
+    }
+
+        .mini-card:hover {
+            transform: translateY(-5px);
+            background: #EBEBEF;
+        }
+
+    .mini-card-info h3 {
+        font-size: 20px;
+        color: #1d1d1f;
+        margin: 0 0 8px 0;
+        font-weight: 700;
+    }
+
+    .mini-card-info span {
+        font-size: 14px;
+        color: #86868b;
+    }
+
+    .mini-card img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 200px;
+        width: auto;
+    }
+
+    .consult-section {
+        background: #fff;
+        padding: 20px 0 60px 0;
+    }
+
+    .consult-banner {
+        background: linear-gradient(108deg, #0e1118 0%, #1c232d 100%);
+        border-radius: 24px;
+        display: flex;
+        align-items: center;
+        padding: 40px 60px;
+        color: white;
+        position: relative;
+        overflow: hidden;
+        max-width: 1180px;
+    }
+
+    .consult-text {
+        flex: 1;
+        z-index: 2;
+    }
+
+        .consult-text h2 {
+            font-size: 32px;
+            margin-bottom: 16px;
+        }
+
+        .consult-text p {
+            font-size: 16px;
+            color: #b1b1b1;
+            line-height: 1.5;
+            margin-bottom: 24px;
+            max-width: 500px;
+        }
+
+    .consult-btn {
+        background-color: #2b59ff;
+        color: white;
+        border: none;
+        padding: 14px 28px;
+        border-radius: 10px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .consult-img img {
+        width: 300px;
+        margin-right: -20px;
+    }
+
+
+    .mini-card {
+        width: 100%;
+    }
+
+    .consult-banner {
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .consult-img img {
+        width: 200px;
+        margin-top: 20px;
+    }
+</style>
+<div class="why-us-content">
+    <div class="why-us-content2">
+
+        <h2 class="why-title">Bizi niyə seçirlər?</h2>
+        <p class="why-desc">
+            STEP IT Akademiyası 1999-cu ildən IT sənayesinin yeni formalaşmağa və populyarlıq qazanmağa başladığı dövrdən fəaliyyət göstərir...
+        </p>
+
+        <div class="stats-grid-clean">
+            <div class="stat-item">
+                <span class="stat-num">25</span>
+                <span class="stat-label">Ölkə</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">116</span>
+                <span class="stat-label">Filial</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">68000</span>
+                <span class="stat-label">Tələbə</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">2900</span>
+                <span class="stat-label">Müəllim</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">267000</span>
+                <span class="stat-label">Məzun</span>
+            </div>
+        </div>
+
+        <div class="video-yt-box">
+            <iframe src="https://youtu.be/pxPYaVOMqlY?si=x04vC62vpuQzKczI"
+                    frameborder="0"
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</div>
+
+<style>
+    .why-us-content {
+        width: 1906px;
+        position: relative;
+        padding: 60px 20px;
+        box-sizing: border-box;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        margin-left: -369px;
+    }
+
+    .why-us-content2 {
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+
+    .why-title {
+        font-size: 36px;
+        font-weight: 800;
+        margin-bottom: 15px;
+        color: #1d1d1f;
+    }
+
+    .why-desc {
+        font-size: 15px;
+        color: #333;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    .stats-grid-clean {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+
+    .stat-item {
+        text-align: center;
+    }
+
+    .stat-num {
+        display: block;
+        font-size: 32px;
+        font-weight: 800;
+        color: #1d1d1f;
+    }
+
+    .stat-label {
+        font-size: 14px;
+        color: #555;
+        text-transform: uppercase;
+    }
+
+    .video-yt-box {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+        .video-yt-box iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+</style>
+<section class="success-stories">
+    <div class="stories-container">
+        <h2 class="stories-title">Məzunlarımızın uğur hekayələri</h2>
+
+        <div class="stories-grid">
+            <div class="story-card">
+                <div class="story-img-wrapper">
+                    <img src="https://fsx1.itstep.org/api/v1/files/NfwXbXuyx86EvoigXl53WsER4BGgXOpb?inline=true&f=webp&h=515" alt="Kamran Kərimzadə" class="grad-img">
+                    <div class="company-logo">
+                        <img src="https://fsx1.itstep.org/api/v1/files/_KO6bOpHilMR2KTCEEUl5eHyfBfRh023?inline=true&f=webp&h=250" alt="AccessBank">
+                    </div>
+                </div>
+                <div class="story-info">
+                    <h3>Kamran Kərimzadə</h3>
+                    <p class="company-name">AccessBank</p>
+                    <p class="course-info">Kurs: <a href="#">Proqram Təminatının Yaradılması</a></p>
+                    <a href="#" class="read-more">Tarixçəni oxumaq <span>&gt;</span></a>
+                </div>
+            </div>
+
+            <div class="story-card">
+                <div class="story-img-wrapper">
+                    <img src="https://fsx1.itstep.org/api/v1/files/cRTVejcyeP8cQ-4L_9uZRZ_-EmXUEpLM?inline=true&f=webp&h=515" alt="Nicat Nəsirov" class="grad-img">
+                    <div class="company-logo">
+                        <img src="https://fsx1.itstep.org/api/v1/files/pAVykXWfSl2R74TiJQ--7s8f3vpR_tdT?inline=true&f=webp&h=250" alt="SOCAR">
+                    </div>
+                </div>
+                <div class="story-info">
+                    <h3>Nicat Nəsirov</h3>
+                    <p class="company-name">Socar Downstream Management</p>
+                    <p class="course-info">Kurs: <a href="#">Proqram Təminatının Yaradılması</a></p>
+                    <a href="#" class="read-more">Tarixçəni oxumaq <span>&gt;</span></a>
+                </div>
+            </div>
+
+            <div class="story-card">
+                <div class="story-img-wrapper">
+                    <img src="https://fsx1.itstep.org/api/v1/files/d0grihUYipcr9nhrwFdVgf_gPHU2mobW?inline=true&f=webp&h=515" alt="Əziz Fərzəliyev" class="grad-img">
+                    <div class="company-logo">
+                        <img src="https://fsx1.itstep.org/api/v1/files/b8OmXTAOwXEhn7l8fbWGvhuMuzh3k98J?inline=true&f=webp&h=250" alt="CBC">
+                    </div>
+                </div>
+                <div class="story-info">
+                    <h3>Əziz Fərzəliyev</h3>
+                    <p class="company-name">Caspian International Broadcasting Company</p>
+                    <p class="course-info">Kurs: <a href="#">Şəbəkələr və Kibertəhlükəsizlik</a></p>
+                    <a href="#" class="read-more">Tarixçəni oxumaq <span>&gt;</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="show-more-wrapper">
+            <button class="btn-show-more">Yenə göstər</button>
+        </div>
+    </div>
+</section>
+<style>
+    .success-stories {
+        background-color: #000; /* Qara fon */
+        padding: 80px 0;
+        font-family: 'Inter', sans-serif;
+        color: #fff;
+        margin-left: -369px;
+        width: 1906px;
+    }
+
+    .stories-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .stories-title {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+
+    .stories-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+    }
+
+    .story-card {
+        background: #111; 
+        border-radius: 12px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+        .story-card:hover {
+            transform: translateY(-10px);
+        }
+
+    .story-img-wrapper {
+        position: relative;
+        height: 300px;
+    }
+
+    .grad-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .company-logo {
+        position: absolute;
+        bottom: -20px;
+        left: 20px;
+        width: 50px;
+        height: 50px;
+        background: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+        .company-logo img {
+            max-width: 80%;
+            max-height: 80%;
+            object-fit: contain;
+        }
+
+    .story-info {
+        padding: 40px 20px 25px;
+    }
+
+        .story-info h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+    .company-name {
+        font-size: 14px;
+        color: #888;
+        margin-bottom: 15px;
+    }
+
+    .course-info {
+        font-size: 13px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+        .course-info a {
+            color: #2b59ff;
+            text-decoration: none;
+        }
+
+    .read-more {
+        color: #2b59ff;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+        display: inline-block;
+    }
+
+        .read-more span {
+            font-size: 12px;
+            margin-left: 5px;
+        }
+    .show-more-wrapper {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .btn-show-more {
+        background: transparent;
+        color: #fff;
+        border: 1px solid #333;
+        padding: 12px 40px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+
+        .btn-show-more:hover {
+            background: #fff;
+            color: #000;
+        }
+
+</style>
+<section class="partners-static-section">
+    <div class="partners-container">
+        <h2 class="partners-static-title">
+            Dünya üzrə <span class="blue-text">məzunlarımızın işlədiyi</span> 1500-dən çox şirkət 🌍
+        </h2>
+
+        <div class="partners-static-grid">
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon1.png" alt="Microsoft"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon2.png" alt="Snapchat"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon3.png" alt="Facebook"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon4.png" alt="eBay"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon5.png" alt="Amazon"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon6.png" alt="IBM"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon7.png" alt="Dell"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon8.png" alt="HP"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon9.png" alt="Monobank"></div>
+
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon10.png" alt="Oracle"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon11.png" alt="Turboseo"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon12.png" alt="Epam"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon13.png" alt="Paymentwall"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon14.png" alt="Skype"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon15.png" alt="Eclipse"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon16.png" alt="GlobalLogic"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon17.png" alt="Crytek"></div>
+
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon18.png" alt="Eleks"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon19.png" alt="Continuum"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon20.png" alt="Provectus"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon21.png" alt="SoftServe"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon23.png" alt="Sitecore"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon22.png" alt="Creative"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon25.png" alt="Bell"></div>
+            <div class="partner-logo"><img src="https://itstep.az/dist/images/home/redesign/companies/icon24.png" alt="MobiDev"></div>
+        </div>
+
+        <div class="more-btn-container">
+            <button class="btn-more">Daha çoxunu göstər</button>
+        </div>
+    </div>
+</section>
+<style>
+    .partners-static-section {
+        background-color: #111214;
+        padding: 80px 0;
+        width: 100%;
+        font-family: 'Inter', sans-serif;
+        margin-left: -369px;
+        width: 1906px;
+    }
+
+    .partners-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .partners-static-title {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+
+    .blue-text {
+        color: #3b72ff;
+    }
+
+    .partners-static-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px 40px;
+        margin-bottom: 50px;
+        width: 1100px;
+    }
+
+    .partner-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .partner-logo img {
+        max-width: 110px;
+        height: auto;
+        filter: brightness(0) invert(1);
+        opacity: 0.7;
+        transition: 0.3s;
+    }
+
+    .partner-logo img:hover {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    .more-btn-container {
+        margin-top: 20px;
+    }
+
+    .btn-more {
+        background: transparent;
+        color: #fff;
+        border: 1px solid #333;
+        padding: 12px 35px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+        .btn-more:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: #555;
+        }
+
 </style>
