@@ -5,10 +5,81 @@
 
     <nav class="header-nav">
         <ul class="nav-list">
-            <li class="nav-item">Təhsil <img src="https://robynallegraparton.com/wp-content/uploads/2017/10/down-arrow-1.png" alt="Alternate Text" /><i class="fas fa-chevron-down icon-small"></i></li>
-            <li class="nav-item">Akademiya haqqında <img src="https://robynallegraparton.com/wp-content/uploads/2017/10/down-arrow-1.png" alt="Alternate Text" /><i class="fas fa-chevron-down icon-small"></i></li>
-            <li class="nav-item">Bloq</li>
-            <li class="nav-item">Əlaqə</li>
+            <li class="nav-item education-dropdown">
+                <a asp-controller="Home" style="color: inherit; text-decoration: none;">
+                    Təhsil <img src="https://robynallegraparton.com/wp-content/uploads/2017/10/down-arrow-1.png" alt="arrow" />
+                </a>
+
+                <div class="mega-menu">
+                    <div class="mega-menu-content">
+                        <div class="mega-column">
+                            <div class="mega-group">
+                                <h4>PESELER</h4>
+                                <a href="#">Reqemsal Dizayn</a>
+                                <a href="#">Proqram Teminatının Yaradılması</a>
+                                <a href="#">Şəbəkə texnologiyaları və kibertəhlükəsizlik</a>
+                            </div>
+                            <div class="mega-group">
+                                <h4>İNTENSİV PROQRAMLAR</h4>
+                                <a href="#">Python Fundamentals Bootcamp</a>
+                                <a href="#">Computer Fundamentals Bootcamp</a>
+                            </div>
+                            <div class="mega-group">
+                                <h4>ALI MEKDEB TELEBELERI UCUN TEHSIL</h4>
+                                <a href="#">STEP IT Foundation</a>
+                            </div>
+                            <div class="mega-group">
+                                <h4>USAQLAR UCUN INTENSIV TEHSIL</h4>
+                                <a href="#">Minecraft ilə Python macərası</a>
+                                <a href="#">Roblox Studio-da Oyun yaradılması</a>
+                            </div>
+
+
+                        </div>
+
+                        <div class="mega-column">
+                            <div class="mega-group">
+                                <h4>KURSLAR</h4>
+                                <a href="#">3D - Müasir interyer dizaynların yaradılması</a>
+                                <a href="#">Qrafik Dizayn</a>
+                                <a href="#">UI/UX Dizayn</a>
+                                <a href="#">Motion Dizayn</a>
+                                <a href="#">Data Analitika</a>
+                            </div>
+                        </div>
+
+                        <div class="mega-column">
+                            <div class="mega-group">
+                                <h4>UŞAQLAR UCUN TEHSIL</h4>
+                                <a href="#">First Step</a>
+                                <a href="#">Kiçik Kompüter Akademiyası</a>
+                            </div>
+                        </div>
+
+                        <div class="mega-column">
+                            <div class="mega-group">
+                                <h4>TETİL</h4>
+                                <a href="#">🌸 <strong>BAHAR</strong></a>
+                                <a href="#">Novruz Kompüter Düşərgəsi</a>
+                                <a href="#" style="margin-top:15px;">🌅 <strong>YAY</strong></a>
+                                <a href="#">Kompüter Düşərgəsi</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a asp-controller="Home" style="color: inherit; text-decoration: none;">Akademiya haqqında <img src="https://robynallegraparton.com/wp-content/uploads/2017/10/down-arrow-1.png" alt="Alternate Text" /><i class="fas fa-chevron-down icon-small"></i></a>
+            </li>
+
+            <li class="nav-item">
+                <a asp-controller="Home" style="color: inherit; text-decoration: none;">Bloq</a>
+            </li>
+
+            <li class="nav-item">
+                <a asp-controller="Home" asp-action="Contact" style="color: inherit; text-decoration: none;">Əlaqə</a>
+            </li>
         </ul>
     </nav>
 
@@ -61,6 +132,66 @@
         width: 25px;
         height: 25px;
     }
+
+    .mega-menu {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        width: 1250px;
+        transform: translateX(-50%);
+        background-color: white;
+        color: #333;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        padding: 40px 0;
+        cursor: default;
+        border-radius: 8px;
+    }
+
+    .education-dropdown:hover .mega-menu {
+        display: block;
+    }
+
+    .mega-menu-content {
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        justify-content: space-between;
+        padding: 0 60px;
+    }
+
+    .mega-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .mega-group h4 {
+        color: #000;
+        font-size: 13px;
+        font-weight: 800;
+        margin-bottom: 15px;
+        letter-spacing: 0.5px;
+    }
+
+    .mega-group a {
+        display: block;
+        color: #666;
+        text-decoration: none;
+        font-size: 14px;
+        margin-bottom: 8px;
+        transition: color 0.2s;
+    }
+
+    .mega-group a:hover {
+        color: #2b59ff;
+    }
+
+    .education-dropdown {
+        position: static !important;
+    }
+
     .nav-item {
         font-size: 14px;
         font-weight: 500;

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Asp.net - StepItAcademy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+808c4507350cc5b8df2c8920bc42d5da4ffb9a5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11cf9602914b03ba6309ffcfd0d14be64158ffab")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asp.net - StepItAcademy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asp.net - StepItAcademy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Omer\\Desktop\\Asp.net - StepItAcademy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|c:\\users\\omer\\desktop\\asp.net - stepitacademy\\asp.net - stepitacademy\\views\\shared\\_headerpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|solutionrelative:asp.net - stepitacademy\\views\\shared\\_headerpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|c:\\users\\omer\\desktop\\asp.net - stepitacademy\\asp.net - stepitacademy\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|solutionrelative:asp.net - stepitacademy\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|c:\\users\\omer\\desktop\\asp.net - stepitacademy\\asp.net - stepitacademy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|solutionrelative:asp.net - stepitacademy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|c:\\users\\omer\\desktop\\asp.net - stepitacademy\\asp.net - stepitacademy\\views\\shared\\_footerpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|solutionrelative:asp.net - stepitacademy\\views\\shared\\_footerpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,12 +23,8 @@
       "RelativeMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|solutionrelative:asp.net - stepitacademy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|c:\\users\\omer\\desktop\\asp.net - stepitacademy\\asp.net - stepitacademy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|solutionrelative:asp.net - stepitacademy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|c:\\users\\omer\\desktop\\asp.net - stepitacademy\\asp.net - stepitacademy\\views\\shared\\_headerpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|solutionrelative:asp.net - stepitacademy\\views\\shared\\_headerpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|c:\\users\\omer\\desktop\\asp.net - stepitacademy\\asp.net - stepitacademy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A7C5AD-62BF-4026-8947-4C178A07F500}|Asp.net - StepItAcademy\\Asp.net - StepItAcademy.csproj|solutionrelative:asp.net - stepitacademy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,40 +43,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Omer\\Desktop\\Asp.net - StepItAcademy\\Asp.net - StepItAcademy\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Asp.net - StepItAcademy\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Omer\\Desktop\\Asp.net - StepItAcademy\\Asp.net - StepItAcademy\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Asp.net - StepItAcademy\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwDoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-03T11:34:52.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Omer\\Desktop\\Asp.net - StepItAcademy\\Asp.net - StepItAcademy\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Asp.net - StepItAcademy\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Omer\\Desktop\\Asp.net - StepItAcademy\\Asp.net - StepItAcademy\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Asp.net - StepItAcademy\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T17:00:06.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Omer\\Desktop\\Asp.net - StepItAcademy\\Asp.net - StepItAcademy\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Asp.net - StepItAcademy\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Omer\\Desktop\\Asp.net - StepItAcademy\\Asp.net - StepItAcademy\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Asp.net - StepItAcademy\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABcDAAAAAAAAAADwvy4DAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAADAAAAAAAAAAAmwEIDAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-29T12:22:45.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T12:22:45.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "_FooterPartialView.cshtml",
               "DocumentMoniker": "C:\\Users\\Omer\\Desktop\\Asp.net - StepItAcademy\\Asp.net - StepItAcademy\\Views\\Shared\\_FooterPartialView.cshtml",
               "RelativeDocumentMoniker": "Asp.net - StepItAcademy\\Views\\Shared\\_FooterPartialView.cshtml",
               "ToolTip": "C:\\Users\\Omer\\Desktop\\Asp.net - StepItAcademy\\Asp.net - StepItAcademy\\Views\\Shared\\_FooterPartialView.cshtml",
               "RelativeToolTip": "Asp.net - StepItAcademy\\Views\\Shared\\_FooterPartialView.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAADwvzgAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-29T10:38:09.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T10:38:09.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "_HeaderPartialView.cshtml",
               "DocumentMoniker": "C:\\Users\\Omer\\Desktop\\Asp.net - StepItAcademy\\Asp.net - StepItAcademy\\Views\\Shared\\_HeaderPartialView.cshtml",
               "RelativeDocumentMoniker": "Asp.net - StepItAcademy\\Views\\Shared\\_HeaderPartialView.cshtml",
               "ToolTip": "C:\\Users\\Omer\\Desktop\\Asp.net - StepItAcademy\\Asp.net - StepItAcademy\\Views\\Shared\\_HeaderPartialView.cshtml",
               "RelativeToolTip": "Asp.net - StepItAcademy\\Views\\Shared\\_HeaderPartialView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAkwIwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-29T10:06:32.615Z"
+              "WhenOpened": "2026-01-29T10:06:32.615Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -78,7 +110,7 @@
               "RelativeDocumentMoniker": "Asp.net - StepItAcademy\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Omer\\Desktop\\Asp.net - StepItAcademy\\Asp.net - StepItAcademy\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Asp.net - StepItAcademy\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-29T10:02:49.753Z"
             }
